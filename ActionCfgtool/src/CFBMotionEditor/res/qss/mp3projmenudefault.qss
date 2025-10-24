@@ -1,0 +1,23 @@
+﻿
+
+
+
+QMenu
+{
+    background-color:#ffffff;
+    color:#000000;
+}
+
+QMenu::item:selected
+{
+    background-color:#e0ffff;
+}
+
+QMenu::item:!enabled
+{
+    color:grey;
+}
+
+
+
+

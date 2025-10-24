@@ -1,0 +1,9 @@
+#ifndef _CFBHTTP_H
+#define _CFBHTTP_H
+
+#include "httpbase.h"
+#include "httpclient.h"
+#include "httprequest.h"
+#include "httpresponse.h"
+
+#endif // _CFBHTTP_H

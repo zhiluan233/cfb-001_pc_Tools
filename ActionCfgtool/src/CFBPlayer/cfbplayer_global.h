@@ -1,0 +1,12 @@
+﻿#ifndef CFBPLAYER_GLOBAL_H
+#define CFBPLAYER_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(CFBPLAYER_LIBRARY)
+#  define CFBPLAYERSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define CFBPLAYERSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // CFBPLAYER_GLOBAL_H
