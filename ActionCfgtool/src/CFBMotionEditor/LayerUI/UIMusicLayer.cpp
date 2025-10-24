@@ -217,7 +217,7 @@ bool CUIMusicLayer::LoadMusic(const QString &strFilePath)
         if (pUIWave->GetBitRate() > 128)
         {
             QMessageBox::warning(NULL, QObject::tr("CFBEcho"), QObject::tr("The bit rate of the current music is %1kbps, the robot can not play a "
-                "music whose bit rate more than 128kbps, please select another music!").arg(pUIWave->GetBitRate()), QObject::tr("OK"));
+                "music whose bit rate more than 128kbps, please select another music! ").arg(pUIWave->GetBitRate()), QObject::tr("OK"));
             SAFE_DELETE(pUIWave);
             return false;
         }

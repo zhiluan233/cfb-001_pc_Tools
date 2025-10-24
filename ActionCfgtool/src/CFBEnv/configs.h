@@ -1,4 +1,4 @@
-﻿// update 251025
+﻿// update 251025 by zhiluan
 
 #ifndef CCONFIGS_H
 #define CCONFIGS_H
@@ -19,10 +19,6 @@ enum emTemplateDir
     CFB_CUSTOM_ACTION_TEMPLATE,
     CFB_MOTION_TEMPLATE_COUNT,
 };
-//leo mm
-const QString TEMPLATE_DIR = "template";
-const QString UPGRADE_XML_NAME = "upgrade.xml";
-const QString UPGRADE_EXE_NAME = "upgrader.exe";
 //!!! app data dir
 const QString ACT_LIB_DIR_NAME = "actlib";
 const QString CONFIG_DIR_NAME = "Config";
@@ -42,6 +38,9 @@ const QString RESOURCES_DIR_NAME = "Resources";
 const QString ROBOT_DIR_NAME = "Robot";
 const QString DOWNLOAD_DIR = "downloads";
 //const QString LAYER_DIR_NAME = "Layer";//???
+const QString TEMPLATE_DIR = "template";
+const QString UPGRADE_XML_NAME = "upgrade.xml";
+const QString UPGRADE_EXE_NAME = "upgrader.exe";
 
 const QString TEMPLATE_NODE_DIR_NAME[] = 
 {
