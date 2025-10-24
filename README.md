@@ -1,5 +1,5 @@
 # Qt5_8_0_MSVC2015_32bit
-语言: [English](README.md) | 简体中文
+语言: [English](README_EN.md) | 简体中文
 ## CyberFurry Robot (Echo) 动作编辑工具 PC 端软件
  - **based on UBTech Edu**
 
