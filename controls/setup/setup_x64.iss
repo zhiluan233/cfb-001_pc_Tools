@@ -3,7 +3,7 @@
 
 #define MyAppName "controlrobots"
 #define MyAppCheseName "controlrobots"
-#define MyAppVersion "3.0.0"
+#define MyAppVersion "3.0.1"
 #define MyAppPublisher "Wingmark Robotics"
 #define MyAppURL "http://robot.wingmark.cn/"
 #define MyAppExeName "controlrobots.exe"
